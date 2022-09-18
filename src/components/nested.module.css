@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.student {
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.student input {
+    margin-left: 45px;
+
+}
