@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Style from "./nested.module.css";
 
 export const Nested = ({ store, data, setData }) => {
