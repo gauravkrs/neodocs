@@ -11,10 +11,8 @@ function App() {
     <div className="App">
       <div>
         <h2>Nested Check Box Of Teacher & Children</h2>
-        <div className="grid-container">
-          {data?.map((el, index) => (
-            <Nested key={index} store={el} data={info} setData={setInfo} />
-          ))}
+        <div>
+          <Nested store={data} />
         </div>
       </div>
       <div>
